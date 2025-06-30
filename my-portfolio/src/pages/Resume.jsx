@@ -1,7 +1,9 @@
+import resume from "../assets/Resume.pdf"
+
 function Resume() {
   return (
     <div className="grow bg-Charcoal">
-      <a href="../assets/Jayden Benston Resume.pdf">My Portfolio</a>
+      <a href={resume} target="_blank" rel="noreferrer" className="flex flex-col items-center text-4xl m-16 rounded-lg bg-Thistle py-8 px-1 text-black">My Resume</a>
       <div className="flex flex-col items-center">
         <h3 className="text-2xl">Front-end Skills</h3>
         <ul className="list-disc list-inside">

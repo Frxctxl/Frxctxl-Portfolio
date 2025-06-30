@@ -15,5 +15,5 @@ body {
 }
 
 a.active {
-  @apply rounded-lg bg-Thistle text-black py-1 px-1;
+  @apply rounded-lg bg-Thistle text-black py-1 px-1 mx-px;
 }
